@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+// import { makeStyles } from '@material-ui/core/styles';
 import Page from '@layout/Page';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
@@ -8,69 +8,69 @@ import { Autocomplete, Box, Button, IconButton, Modal, Paper, Table, TableBody, 
 import { size } from 'lodash';
 import EditRateMaster from './Modals/EditRateMaster';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    width: '100%',
-    marginTop: theme.spacing(3),
-    overflowX: 'auto',
-  },
-  table: {
-    minWidth: 650,
-  },
-  download: {
-    display: 'flex',
-    justifyContent: 'space-between'
-  },
-  uploadButton: {
-    display: 'none',
-  },
-  uploadLabel: {
-    backgroundColor: "rgb(8,155,171)",
-    color: "white",
-    padding: '10px 20px',
-    cursor: 'pointer',
-  },
-  rmBtn: {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '1rem',
-    marginTop: '1.5rem'
-  },
-  popUp: {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    backgroundColor: 'white',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    flexDirection: 'column',
-    borderRadius: '8px',
-    padding: '30px'
-  },
-  form: {
-    display: "flex",
-    flexDirection: 'column',
-  },
-  input: {
-    width: '500px'
-  },
-  btn: {
-    margin: '10px 0'
-  },
-  search: {
-    border: '1px solid rgb(8, 144, 171)',
-    padding: '4px 10px',
-    borderRadius: '4px',
-    fontSize: '18px'
-  },
-  category: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between'
-  }
-}));
+// const useStyles = makeStyles((theme) => ({
+//   root: {
+//     width: '100%',
+//     marginTop: theme.spacing(3),
+//     overflowX: 'auto',
+//   },
+//   table: {
+//     minWidth: 650,
+//   },
+//   download: {
+//     display: 'flex',
+//     justifyContent: 'space-between'
+//   },
+//   uploadButton: {
+//     display: 'none',
+//   },
+//   uploadLabel: {
+//     backgroundColor: "rgb(8,155,171)",
+//     color: "white",
+//     padding: '10px 20px',
+//     cursor: 'pointer',
+//   },
+//   rmBtn: {
+//     display: 'flex',
+//     flexDirection: 'column',
+//     gap: '1rem',
+//     marginTop: '1.5rem'
+//   },
+//   popUp: {
+//     position: 'absolute',
+//     top: '50%',
+//     left: '50%',
+//     transform: 'translate(-50%, -50%)',
+//     backgroundColor: 'white',
+//     display: 'flex',
+//     justifyContent: 'center',
+//     alignItems: 'center',
+//     flexDirection: 'column',
+//     borderRadius: '8px',
+//     padding: '30px'
+//   },
+//   form: {
+//     display: "flex",
+//     flexDirection: 'column',
+//   },
+//   input: {
+//     width: '500px'
+//   },
+//   btn: {
+//     margin: '10px 0'
+//   },
+//   search: {
+//     border: '1px solid rgb(8, 144, 171)',
+//     padding: '4px 10px',
+//     borderRadius: '4px',
+//     fontSize: '18px'
+//   },
+//   category: {
+//     display: 'flex',
+//     alignItems: 'center',
+//     justifyContent: 'space-between'
+//   }
+// }));
 
 function RateMaster() {
   const classes = useStyles();

@@ -201,13 +201,13 @@ const Login = () => {
             name="password"
             onChange={handlePasswordChange}
           />
-          <div className={style.form_group}>
+          {/* <div className={style.form_group}>
             <div className={style.checkbox}>
               <label>
                 <input type="checkbox" /> Remember me
               </label>
             </div>
-          </div>
+          </div> */}
           <button type="submit" className={style.btn}>
             Sign in
           </button>
