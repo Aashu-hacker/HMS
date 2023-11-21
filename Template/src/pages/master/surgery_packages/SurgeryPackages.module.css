@@ -1,0 +1,16 @@
+.up_btn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 0 .4rem;
+}
+
+.bottom_btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlight:hover {
+    background-color: #2ac8ca;
+    color: white;
+}

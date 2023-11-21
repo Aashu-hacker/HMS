@@ -1,0 +1,302 @@
+.staff_card {
+  margin: 0.7rem;
+  padding: 0.7rem;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+.container {
+  margin: 1rem;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.staff_card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10%;
+  border: 1px solid #eee;
+}
+.staff_details .p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: flex;
+  gap: 2rem;
+  max-width: 200px;
+}
+.staff_details {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+.viewBtn {
+  background-color: #eee;
+  border: 1px solid #eee;
+  border-radius: 25px;
+  padding: 0.7rem 2rem;
+  min-width: 15vw;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header button {
+  border: 1px solid #9c9a9a;
+  padding: 0.7rem 1rem;
+  background-color: #eee;
+  min-width: 10vw;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.header button:hover {
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 0 5px #eee;
+}
+
+.bankingDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.bankingDetails > div {
+  align-items: center;
+  gap: 5rem;
+}
+
+.bankingDetails p {
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  margin-bottom: 0.2rem;
+}
+
+
+
+.bankingDetails span{
+  color: #13798b;
+  font-size: 1rem;
+  margin-right: .3rem;
+}
+
+.viewBtn:hover {
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 0 5px #eee;
+}
+.pass-port {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  border: 1px solid #eee;
+}
+.container {
+  display: flex;
+  gap: 1rem;
+}
+.doc_image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  border: 1px solid #eee;
+}
+.container h4 {
+  border-bottom: 2px solid #a6a4a4;
+}
+.basicDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.basicDetails > div {
+  align-items: center;
+  gap: 5rem;
+  padding: 2rem;
+}
+
+.basicDetails p {
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  margin-bottom: 0.2rem;
+}
+.basicDetails span {
+  color: #13798b;
+  font-size: 1rem;
+  margin-right: 0.4rem;
+}
+.educationalDetails {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+
+}
+.educationalDetails span{
+  color: #13798b;
+  font-size: 1rem;
+  margin-right: .3rem;
+}
+
+.educationalDetails > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  justify-content: center;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.educationalDetails p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.image-conatainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+.image-conatainer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.image-conatainer img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10%;
+  border: 1px solid #eee;
+}
+
+.image-conatainer h5 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* CustomField.css */
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  position: relative;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 0.6rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.modal-content img {
+  width: 550px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .staff-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .staff-nav .label {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .staff_card {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .staff_details .p {
+    max-width: 100%;
+    text-align: center;
+  }
+  .viewBtn {
+    padding: 0.5rem 1rem;
+  }
+}
+
+
